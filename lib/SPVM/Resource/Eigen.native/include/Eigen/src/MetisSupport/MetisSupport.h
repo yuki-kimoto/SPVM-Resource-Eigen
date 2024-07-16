@@ -11,7 +11,7 @@
 
 namespace Eigen {
 /**
- * Get the fill-reducing ordering from the METIS class
+ * Get the fill-reducing ordering from the METIS package
  * 
  * If A is the original matrix and Ap is the permuted matrix, 
  * the fill-reducing permutation is defined as follows :
@@ -114,7 +114,7 @@ public:
     if(output_error != METIS_OK) 
     {
       //FIXME The ordering interface should define a class of possible errors 
-     std::cerr << "ERROR WHILE CALLING THE METIS CLASS \n"; 
+     std::cerr << "ERROR WHILE CALLING THE METIS PACKAGE \n"; 
      return; 
     }
     
