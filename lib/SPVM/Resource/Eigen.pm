@@ -16,7 +16,7 @@ Resource::Eigen in L<SPVM> is a L<resouce|SPVM::Document::Resource> for L<C++ Ei
 
 MyClass.config:
   
-  my $config = SPVM::Builder::Config->new_cpp(file => __FILE__);
+  my $config = SPVM::Builder::Config->new_cpp17(file => __FILE__);
   
   $config->use_resource('Resource::Eigen');
   
